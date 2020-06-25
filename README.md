@@ -1,8 +1,41 @@
+# Which Project has been chosen?
+Project 2 is chosen for the Capstone Project
+
 # CPPND: Capstone Snake Game Example
 
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
+This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses. In addition to the normal game, this snack game has a pure multiplayer mode. 
 
-<img src="snake_game.gif"/>
+# Controls
+Player 1: Left - Left Arrow, Right - Right Arrow, Up - Up Arrow, Down - Down Arrow
+Player 2: Left - a,          Right - d,           Up - w,        Down - s
+
+# Rules 
+The Player who is alive at end of the game wins the game. 
+
+# Acceptance Criteria:
+1. The project uses Object Oriented Programming techniques. (all)
+
+2. Classes use appropriate access specifiers for class members. (game.cpp line 119)
+
+3. The project makes use of references in function declarations. (snake.cpp line 5)
+
+4. The project accepts user input and processes the input. (cortroller.cpp line 49-51 )
+
+5. Class constructors utilize member initialization lists. (game.cpp line 5)
+
+# File Class Structure
+in src you can find these files
+
+main.cpp -> starts the game, instanciate controller, renderer and game and gives output of score and winner at the end
+
+game.cpp/h -> manages the gameplay
+
+controller.cpp/h -> user input
+
+renderer.cpp/h -> Renders objects for screen
+
+snake.cpp/h -> creates properties of snake
+
 
 The Capstone Project gives you a chance to integrate what you've learned throughout this program. This project will become an important part of your portfolio to share with current and future colleagues and employers.
 
